@@ -62,7 +62,28 @@ let students = ['John', 'Jane', 'Joe'];
 // console.log(iife);
 
 // strings
-let str1 = "Hello "
-let str2 = "World!"
-let str3 = `${str1+str2}`
-console.log(str3);
+// let str1 = "Hello "
+// let str2 = "World!"
+// let str3 = `${str1+str2}`
+// console.log(str3);
+
+// concat
+// var s1 = "Hello ";
+// var s2 = "World ";
+// var s3 = s1.concat(s2);
+// console.log(s3.concat('2022'))
+
+// charAt
+// var a = 'primitive.\nlerin properti veya metodu olmaz.'
+// console.log(a);
+// console.log(a.charAt(9));
+// console.log(a.charAt(10));
+// console.log(a.charAt(11));
+// console.log(a.length);
+
+// includes
+var str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+var n =str.includes("simply");
+console.log(n);
+
+
